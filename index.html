@@ -1,0 +1,17 @@
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>Website Viewer</title>
+</head>
+<body>
+  <input type="text" placeholder="Enter Url"  id="url" onchange="update()">
+  <button id="submit" onclick="update">Submit</button>
+  <script>
+  	function update() {
+    	let input = document.getElementById('url').value
+      console.log(input)
+    }
+  </script>
+  <iframe src="https://github.com" frameborder="0"></iframe>
+</body>
+</html>
